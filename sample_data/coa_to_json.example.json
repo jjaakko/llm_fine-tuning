@@ -1,0 +1,84 @@
+{
+    "train": {
+        "1": [
+            [
+                {
+                    "index": 0,
+                    "indent": 0,
+                    "parent": null,
+                    "children": [
+                        1
+                    ],
+                    "name_en": "BALANCE_SHEET"
+                },
+                {
+                    "index": 1,
+                    "indent": 1,
+                    "parent": 0,
+                    "children": [
+                        2
+                    ],
+                    "name_en": "ASSETS"
+                },
+                {
+                    "index": 2,
+                    "indent": 2,
+                    "parent": 1,
+                    "children": [
+                        3
+                    ],
+                    "name_en": "Non-current assets"
+                },
+                {
+                    "index": 3,
+                    "code": 1005,
+                    "indent": 4,
+                    "parent": 2,
+                    "name_en": "Research expenditure"
+                }
+            ],
+            [
+                {
+                    "index": 0,
+                    "type": "TITLE",
+                    "coa_structure": "1",
+                    "indent": 1,
+                    "parent": null,
+                    "children": [
+                        1
+                    ],
+                    "name_en": "Income statement"
+                },
+                {
+                    "index": 1,
+                    "type": "ROW_FUNCTION",
+                    "coa_structure": "2",
+                    "indent": 2,
+                    "parent": 0,
+                    "children": [
+                        2
+                    ],
+                    "name_en": "Raw materials and services",
+                },
+                {
+                    "index": 2,
+                    "type": "ROW_FUNCTION",
+                    "coa_structure": "2",
+                    "indent": 2,
+                    "parent": 1,
+                    "children": [
+                        3
+                    ],
+                    "name_en": "Purchases"
+                },
+                {
+                    "index": 3,
+                    "code": 4000,
+                    "indent": 4,
+                    "parent": 2,
+                    "name_en": "Purchases"
+                }
+            ]
+        ]
+    }
+}

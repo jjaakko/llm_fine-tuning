@@ -1,0 +1,22 @@
+line-length = 88
+indent-width = 4
+
+# Assume Python 3.11
+target-version = "py311"
+
+[lint]
+select = ["E", "F", "W", "I", "UP"]
+ignore = ["E501"]
+
+
+# Allow fix for enabled rules.
+fixable = ["ALL"]
+unfixable = []
+
+[lint.isort]
+known-first-party = ["ml_tracking"]
+
+[format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"

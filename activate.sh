@@ -1,0 +1,1 @@
+echo "conda activate finetune_slim_3.11"

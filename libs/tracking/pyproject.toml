@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ml-tracking"
+version = "0.1.0"
+description = "Wrapper for ttacking with mlflow"
+readme = "README.md"
+requires-python = ">=3.11, <3.13"
+
+dependencies = ["mlflow==2.19.0", "azureml-mlflow>=1.55", "azure-ai-ml"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ml_tracking"]

@@ -1,0 +1,58 @@
+{
+  "receiver_id": {
+    "dtype": "int64",
+    "_type": "Value"
+  },
+  "receiver_name": {
+    "dtype": "string",
+    "_type": "Value"
+  },
+  "reveiver_main_line_business": {
+    "dtype": "string",
+    "_type": "Value"
+  },
+  "product_name": {
+    "dtype": "string",
+    "_type": "Value"
+  },
+  "price": {
+    "dtype": "float32",
+    "_type": "Value"
+  },
+  "invoice_sender": {
+    "dtype": "string",
+    "_type": "Value"
+  },
+  "invoice_sender_main_business_line": {
+    "dtype": "string",
+    "_type": "Value"
+  },
+  "unit": {
+    "dtype": "string",
+    "_type": "Value"
+  },
+  "amount": {
+    "dtype": "float32",
+    "_type": "Value"
+  },
+  "tax": {
+    "dtype": "float32",
+    "_type": "Value"
+  },
+  "currency": {
+    "dtype": "string",
+    "_type": "Value"
+  },
+  "invoice_id": {
+    "dtype": "int64",
+    "_type": "Value"
+  },
+  "invoice_row_id": {
+    "dtype": "string",
+    "_type": "Value"
+  },
+  "account_code": {
+    "dtype": "string",
+    "_type": "Value"
+  }
+}

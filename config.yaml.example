@@ -1,0 +1,4 @@
+# Point to an .env file containing secrets.
+secrets_path: <REPLACE-ME>
+# Point to a path where dataset is read from and models, logs ans emission data are saved.
+data_path: <REPLACE-ME>

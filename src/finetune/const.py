@@ -1,0 +1,8 @@
+from enum import Enum
+
+REPORT_FORMULA_NAMES = ["BALANCE_SHEET", "INCOME_STATEMENT"]
+
+
+class ReportFormulaNames(Enum):
+    BALANCE_SHEET = "BALANCE_SHEET"
+    INCOME_STATEMENT = "INCOME_STATEMENT"
