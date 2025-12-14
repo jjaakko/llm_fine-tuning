@@ -2,14 +2,15 @@ This project contains code to to fine-tune [Mistral V3 instruct](https://hugging
 
 ## Prerequisites
 
-- Ensure a compute with `NVIDIA A100 80GB PCIe` GPU or equivalent
+- Ensure a linux compute with `NVIDIA A100 80GB PCIe` GPU or equivalent
 - Install conda (tested with version 24.5.0)
 
 ## Installing dependencies
 
 - Clone this repository
 - Install python 3.11 and Cuda by running `conda env create -f environment.yaml`
-- Activate conda environment `.$(./activate.sh)`
+- Run `chmod u+x activate.sh`
+- Activate conda environment by running `$(./activate.sh)`
 - Install pinned python dependencies by running `pip install requirements/requirements.txt`
 - Install the project as editable package `pip install -e .`
 - Install a wrapper for tracking experiments via mlflow `pip install -e libs/tracking`
@@ -20,7 +21,7 @@ This project contains code to to fine-tune [Mistral V3 instruct](https://hugging
 
 ## Datasets for experiments
 
-Illustrative examples of training data can be found in `sample_data/sample.jsonl`. Datatypes of each column are described in `sample_data/sample.jsonl`.
+Illustrative examples of training data can be found in `sample_data/sample.jsonl`. Datatypes of each column are described in `sample_data/features.json`.
 
 The training script expects `train`, `dev` and `test` datasets in parquet format. One can convert `sample.jsonl` to a parquet file for example as follows:
 
